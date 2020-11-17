@@ -1,3 +1,31 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+// font-family: 'Mitr', sans-serif;
+// font-family: 'Paytone One', sans-serif;
+// font-family: 'Russo One', sans-serif;
+
+
+
+h1, h2, h3 {
+  font-family: 'Russo One', sans-serif;
+}
+
+h1 {
+  color: rgb(0,100,0);
+}
+
+body {
+  font-family: 'Mitr', sans-serif !important;
+  color: rgb(100,100,100) !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(0,200,0) !important;
+  &:hover {
+    color: rgb(0,150,0) !important;
+  }
+}
+
